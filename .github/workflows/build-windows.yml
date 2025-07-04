@@ -7,6 +7,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Adicionar permissões necessárias para criar releases
+permissions:
+  contents: write
+
 jobs:
   build-windows:
     runs-on: windows-latest
@@ -42,7 +46,6 @@ jobs:
         name: Super Hero - Windows Release v1.0.${{ github.run_number }}
         files: |
           dist/SuperHero.exe
-          dist/assets/**
         draft: false
         prerelease: false
       env:
