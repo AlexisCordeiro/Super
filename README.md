@@ -150,13 +150,6 @@ super-hero/
 - Inimigos mais inteligentes
 - Lacunas no chão
 
-### 🔥 Nível 3: Avançado
-- Plataformas de lava (causam dano)
-- Plataformas que desaparecem
-- Plataformas de impulso
-- Múltiplos inimigos
-- Desafios complexos
-
 ## 🏆 Sistema de Pontuação
 - **Moedas normais**: 10 pontos
 - **PowerUp Coins**: 50 pontos
